@@ -140,6 +140,8 @@ const sendEmail = async (email, name, message) => {
     }
 };
 
+app.set('trust proxy', 1);
+
 
 // Message Expansion Route
 app.post(
